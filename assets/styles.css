@@ -73,3 +73,13 @@ img {
     height: 60%;
     margin: 10px;
 }
+
+button:hover {
+    transition: 0.5s ease-out;
+    background-color: #16BEF5;
+    color: white;
+    height: 50px;
+    width: 50px;
+    cursor:pointer;
+}
+
