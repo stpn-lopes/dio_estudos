@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,10 +14,11 @@
         <section>
             <img src="/img/copo-agua.png" alt="imagem contendo um desenho de um copo de água.">
             <div class="counter">
-                <button>-</button>
-                <span>0</span>
-                <button>+</button>
+                <button name="subtract" onclick="decrement()">-</button>
+                <span id="display">0</span>
+                <button name="add" onclick="increment()">+</button>
             </div>
         </section>
+        <script src="/assets/scripts/scripts.js"></script>
     </body>
 </html>
