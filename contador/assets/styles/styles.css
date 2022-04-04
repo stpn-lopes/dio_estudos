@@ -13,10 +13,13 @@ body {
 header {
     margin: auto;
     padding: 15px;
-    height: 100%;
-    width: 50%;
+    max-height: 100%;
+    max-width: 50%;
     text-align: center;
-    font-size: 5vh;
+}
+
+header h1 {
+    font-size: 55px;
 }
 
 section{
@@ -25,8 +28,8 @@ section{
     align-items: center;
     justify-content: space-evenly;
     padding: 15px;
-    height: 100%;
-    width: 50%;
+    max-height: 100%;
+    max-width: 50%;
 }
 
 img {
@@ -34,7 +37,7 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    max-width: 50%;
 }
 
 .counter{
@@ -43,7 +46,7 @@ img {
     justify-content: space-around;
     align-items: center;
     height: 150px;
-    width: 350px;
+    width: 250px;
 }
 
 button {
