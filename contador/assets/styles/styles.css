@@ -11,6 +11,10 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     margin: auto;
     padding: 15px;
     max-height: 100%;
@@ -20,6 +24,18 @@ header {
 
 header h1 {
     font-size: 55px;
+}
+
+#divCommentary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+    height: 75px;
+    background-color:none;
+    color: white;
+    text-align: justify;
 }
 
 section{
@@ -60,7 +76,7 @@ button {
     border:none;
 }
 
-span {
+#display {
     display: flex;
     align-items: center;
     justify-content: center;
