@@ -66,6 +66,9 @@ img {
 }
 
 button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: rgb(23, 209, 209);
     color: white;
     height: 50px;
@@ -91,4 +94,17 @@ button:hover {
     height: 50px;
     width: 50px;
     font-weight: bolder;
+}
+
+@media (max-width: 870px) {
+    body{
+        flex-direction: column;
+        margin-top: 150px;
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    img{
+        width: 85%;
+    }
 }
