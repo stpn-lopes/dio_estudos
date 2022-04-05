@@ -1,10 +1,10 @@
 # **Contador**
 ### Sumário
 
-* <a href="">Um pouco sobre o Projeto</a>
-* <a href="">Checklist do projeto Calculadora</a>
-* <a href="">Tecnologias utilizadas</a>
-* <a href="">Links Úteis</a>
+* <a href="https://github.com/stpn-lopes/estudos_js/tree/main/contador#--um-pouco-sobre-o-projeto">Um pouco sobre o Projeto</a>
+* <a href="https://github.com/stpn-lopes/estudos_js/tree/main/contador#-%EF%B8%8F--checklist-do-projeto-calculadora-">Checklist do projeto Calculadora</a>
+* <a href="https://github.com/stpn-lopes/estudos_js/tree/main/contador#---tecnologias-utilizadas-">Tecnologias utilizadas</a>
+* <a href="https://github.com/stpn-lopes/estudos_js/tree/main/contador#%EF%B8%8F-links-%C3%BAteis">Links Úteis</a>
 
 #
 
@@ -15,7 +15,7 @@ uso das propriedades do FlexBox para auxiliar na criação do layout da página 
 são ativadas quando os botões são clicados, um para diminir e outro aumentar o valor, realizando assim a contagem.
 Este projeto tem por principal objetivo a prática de meus conhecimentos. Abaixo está um gif que mostra como está o funcionamento: </p>
 <div align="center">
-  <img src="" alt="exemplo do projeto mostrando o funcionamento por meio de gif"/>
+  <img src="https://github.com/stpn-lopes/estudos_js/blob/main/contador/img/exemplo.gif" alt="exemplo do projeto mostrando o funcionamento por meio de gif"/>
 </div>
 
 # 
@@ -29,8 +29,9 @@ Este projeto tem por principal objetivo a prática de meus conhecimentos. Abaixo
 - [x] Uso de Flexbox;
 - [x] Responsividade;
 - [x] Trazer funcionalidade com o uso de funções no JavaScript;
-- [x] Criar e usar condições no JavaScript.
-- [ ] Adicionar comentários nos códigos.
+- [x] Criar e usar condições no JavaScript;
+- [ ] Adicionar comentários nos códigos;
+- [ ] Adicionar legenda das cores;
 
 ##
 
@@ -64,7 +65,7 @@ Feito com ❤️ por <br> <br>
  <img src="https://avatars.githubusercontent.com/u/91392505?v=4" width="100px" alt="foto do perfil da Stephany">
 ### Stephany Lopes
 	
-[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-tomato?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/stpn-lopes/)](https://www.linkedin.com/in/stpn-lopes/) 
-[![Gmail Badge](https://img.shields.io/badge/-stpn.lopes@gmail.com-tomato?style=flat-square&logo=Gmail&logoColor=white&link=mailto:stpn.lopes@gmail.com)](mailto:stpn.lopes@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-981C9E?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/stpn-lopes/)](https://www.linkedin.com/in/stpn-lopes/) 
+[![Gmail Badge](https://img.shields.io/badge/-stpn.lopes@gmail.com-981C9E?style=flat-square&logo=Gmail&logoColor=white&link=mailto:stpn.lopes@gmail.com)](mailto:stpn.lopes@gmail.com)
 
 </div>
