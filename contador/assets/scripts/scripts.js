@@ -3,11 +3,11 @@ let currentNumber = document.getElementById(display);
 let div = document.getElementById(divCommentary);
 
 function comment (){
-    if (count <4) {
+    if (count <3){
         document.getElementById("display").style.color = "black";
         document.getElementById("display").style.backgroundColor = "red";
     }
-    if (count <7){
+    if (count >3){
         document.getElementById("display").style.color = "black";
         document.getElementById("display").style.backgroundColor = "yellow";
     }
