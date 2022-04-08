@@ -2,7 +2,7 @@
 
 
 
-O fato é que não adianta saber uma linguagem, se não for capaz de desenvolver um raciocínio lógico em cima disto capaz de resolver problemas, pois no fim tudo se tratará de ser capaz de solucionar algo por meio de instruções coesas e objetivas. 
+O fato é que não adianta saber uma linguagem, se não for capaz de desenvolver um raciocínio lógico em cima disto para resolver problemas, pois no fim tudo se tratará de ser capaz de solucionar algo por meio de instruções coesas e objetivas. 
 
 ### O que é lógica de programação? 
 
