@@ -4,28 +4,29 @@ Pode ser considerada como em uma construção de uma casa, as fundações e pare
 
 ### Sua estrutura básica:
 
-<html>
-    <head>
-    </head>
-    <body>
-    </body>
-</html>
+    <html>
+        <head>
+        </head>
+        <body>
+        </body>
+    </html>
 
 ### Algumas tags:
 
-<a> = âncora para links
-<a target="_blank"> = abre em outra aba o link
-<p> = paragrafo
-<h1>-<h6> = título e tem niveis 
-<ul> = lista desordenada
-<ol> = lista ordenada
-<li> = elemento da lista
-<br> = quebra de linha
-<img src="" alt=""> = add uma imagem
-<button> = add um botão
-<input> = add um elemento que pode ser usado para saida e entrada de informações
-<aside> = conteudo lateral
-<section> = seções da pagina
-<header> = cabeçalho
-<footer> = rodapé
-<article> = conteudo/artigo
+<ul>
+        <li> a = âncora para links</li>
+        <li> a target="_blank"> = abre em outra aba o link </li>
+        <li> p = paragrafo </li>
+        <li> h1-h6 = título e tem niveis </li>
+        <li> ul = lista desordenada </li>
+        <li> ol = lista ordenada </li>
+        <li> li = elemento da lista </li>
+        <li> br = quebra de linha </li>
+        <li> img = add uma imagem </li>
+        <li> button = add um botão </li>
+        <li> input = add um elemento que pode ser usado para saida e entrada de informações </li>
+        <li> aside = conteudo lateral </li>
+        <li> section  = seções da pagina </li>
+        <li> header = cabeçalho </li>
+        <li> footer = rodapé </li>
+        <li> article = conteudo/artigo </li>
