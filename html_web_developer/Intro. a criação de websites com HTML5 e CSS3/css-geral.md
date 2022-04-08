@@ -21,7 +21,7 @@ E seguindo a analogia, o CSS seria como a pintura da casa, o papel de parede, ta
 * color: muda a cor do texto
 * width: define a largura 
 * height: define a altura
-* display: 
+* display: especifica o tipo de caixa de renderização usada por um elemento
 * margin: adiciona uma margem externa
 * padding: adiciona uma especie de margem interna dentro do conteudo
 * border: cuida da borda do elemento
