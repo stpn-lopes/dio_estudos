@@ -10,7 +10,7 @@ FAÇA a repetição do trecho do código
 É executado o bloco de comandos e só depois verifica se há a necessidade de repetição.
 
 
-### Para 
+### PARA 
 O ciclo para incrementa ou decrementa uma variável (contador) dentro do inntervalo e passos especificos. E é usado frequentemente na manipulação de matrizes.
 
 PARA <variavel contadora>
@@ -42,3 +42,38 @@ Atenção: Todo switch case é necessário um caso "default", pois o programa ne
  
  SWITCH <nome> {case.<teste>:<intruções>; case.<teste>:<intruções>; case.:default:<intruções>}
 
+### SE / IF
+tem por finalidade tomar uma decisão de acordo com o resultado de uma condição (teste lógico) e então, executar um bloco de códigos que irá depender do resultado dessa condição.
+
+    SE (condição) ENTÃO <instrução caso condição verdadeira>; SENÃO <instruções caso condição retorne falso>; FIM SE <instruções após executar as instruções de condição verdeira ou falasa>;
+
+* Bloco condicional: usa vários "SE's" e tem um caso para quando não é nenhuma daquelas condições.
+
+### FUNÇÃO
+
+* não podemos usar o mesmo nome para funções diferentes em um programa;
+* O código deve estar, obrigatoriamente dentro das chaves e funcionar como qualquer outro bloco.
+* Todas as funções devem ser definididas antes da função main, ou deve ser feito o protótipo da função.
+
+    funcao <nome> (a,b) {
+        bloco de codigo
+    } [tipo de retorno] <nome> (<1°parâmetro, 2°parâmetro,...>)
+
+* PARÂMETROS
+* VALOR DE RETORNO: frequentemente, uma função faz algum tipo de processamento ou calculo e precisa devolver o resultado desse procedimento. Para devolver um valor é necessário especiificar o seu tipo (chair, int...) o qual pode ser tambem VOID, que significa que não há valor de retorno.
+
+### MATRIZ 
+é uma coleção de variaveis do mesmo tipo, acessíveis com um único nome; bidimensional.
+
+<nome> = [ "0,0","0,1" 
+           "1,0", "1,1"
+           "2,0", "2,1"]
+
+* INDICE: pique o excel, há "coordenadas" de cada elemento da matriz;
+        MATRIZ [linha, coluna]
+
+### VETORES
+é uma variavel que armazena varia vars do mesmo tipo; unidimensional.
+        VETOR [linha]
+
+        
