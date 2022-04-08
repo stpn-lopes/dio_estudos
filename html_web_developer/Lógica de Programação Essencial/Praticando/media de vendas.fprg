@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vladimirisid&#243;riodasi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-25 07:52:35 "/>
+        <attribute name="created" value="dmxhZGltaXJpc2lkw7NyaW9kYXNpO1ZMQURJTUlSOzIwMjEtMTAtMjU7IjAxOjUwOjE3ICI7NDA1Mw=="/>
+        <attribute name="edited" value="dmxhZGltaXJpc2lkw7NyaW9kYXNpO1ZMQURJTUlSOzIwMjEtMTAtMjU7IjA3OjUyOjM1ICI7Mjs0MTcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="O projeto tem como objetivo ajudar a empresa a realizar os calculos de seus funcionarios, baseado na quantidade de vendas nos 4 primeiros meses do ano, para saber o quanto cada um receber&#225; de abono. &#13;&#10;O valor sendo maior que 5000 ao todo, receber&#225; 10%, menor que isto receber&#225; apenas 3%."/>
+            <comment text="declarando os valores que ser&#227;o usados"/>
+            <declare name="JAN, FEV, MAR, ABR, MEDIA, IDADE" type="Real" array="False" size=""/>
+            <declare name="confirmacao" type="Boolean" array="False" size=""/>
+            <declare name="NOME, SOBRENOME, CARGO" type="String" array="False" size=""/>
+            <output expression="&quot;Ol&#225;, seja bem vindo ao sistema, vamos descobrir quantas vendas obteve?&quot;" newline="True"/>
+            <comment text="identificando o funcionario"/>
+            <output expression="&quot;Mas antes se identifique, diga-nos, qual seu primeiro nome?&quot;" newline="True"/>
+            <input variable="NOME"/>
+            <output expression="&quot;E seu sobrenome?&quot;" newline="True"/>
+            <input variable="SOBRENOME"/>
+            <output expression="&quot;Qual sua idade?&quot;" newline="True"/>
+            <input variable="IDADE"/>
+            <output expression="&quot;Qual seu cargo?&quot;" newline="True"/>
+            <input variable="CARGO"/>
+            <output expression="&quot;Confirmando:&quot; &amp; NOME &amp; &quot; &quot; &amp; SOBRENOME &amp; &quot;  &quot; &amp; IDADE &amp; &quot;   &quot; &amp; CARGO &amp; &quot;. Est&#225; correto?&quot;" newline="True"/>
+            <input variable="confirmacao"/>
+            <comment text="recolhendo as informa&#231;&#245;es sobre os valores das vendas mensais"/>
+            <output expression="&quot;Qual foi o seu valor alcan&#231;ado nas vendas em Janeiro?&quot;" newline="True"/>
+            <input variable="JAN"/>
+            <output expression="&quot;Qual foi o seu valor alcan&#231;ado nas vendas em Fevereiro?&quot;" newline="True"/>
+            <input variable="FEV"/>
+            <output expression="&quot;Qual foi o seu valor alcan&#231;ado nas vendas em Mar&#231;o?&quot;" newline="True"/>
+            <input variable="MAR"/>
+            <output expression="&quot;Qual foi o seu valor alcan&#231;ado nas vendas em Abril?&quot;" newline="True"/>
+            <input variable="ABR"/>
+            <comment text="introduzindo a express&#227;o numerica para descobrir a media"/>
+            <assign variable="MEDIA" expression="(JAN + FEV + MAR + ABR)/4"/>
+            <if expression="MEDIA &gt;= 5000">
+                <then>
+                    <output expression="&quot;Parabens, voce receber&#225; o abono de 10%.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Parabens, voce receber&#225; o abono de 3%.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

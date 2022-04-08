@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vladimirisid&#243;riodasi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-16 03:15:01 "/>
+        <attribute name="created" value="dmxhZGltaXJpc2lkw7NyaW9kYXNpO1ZMQURJTUlSOzIwMjEtMTAtMTI7IjEwOjA1OjAyICI7NDA0Mw=="/>
+        <attribute name="edited" value="dmxhZGltaXJpc2lkw7NyaW9kYXNpO1ZMQURJTUlSOzIwMjEtMTAtMTY7IjAzOjE1OjAxICI7NDs0MTYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Ol&#225;, grande amigo (a).&quot;" newline="True"/>
+            <output expression="&quot;Posso te ajudar a comparar tr&#234;s n&#250;meros e assim, descobrir qual entre eles &#233; o maior. Quer tentar?&quot;" newline="True"/>
+            <comment text="Declarando os campos de memoria para ser usados com valores diversos&#13;&#10;"/>
+            <declare name="Valor1, Valor2, Valor3, NumeroMaior" type="Integer" array="False" size=""/>
+            <comment text="Pedindo ao usuario cada nota sua para ser realizado o calculo"/>
+            <output expression="&quot;Insira um valor.&quot;" newline="True"/>
+            <input variable="Valor1"/>
+            <output expression="&quot;Insira um valor.&quot;" newline="True"/>
+            <input variable="Valor2"/>
+            <output expression="&quot;Insira um valor.&quot;" newline="True"/>
+            <input variable="Valor3"/>
+            <comment text="Verificando qual &#233; o valor maior atraves da compara&#231;&#227;o e o uso de &quot;Se&quot;."/>
+            <if expression="Valor1 &gt; Valor2">
+                <then>
+                    <if expression="Valor1 &gt; Valor3">
+                        <then>
+                            <assign variable="NumeroMaior" expression="Valor1"/>
+                            <output expression="&quot;O maior n&#250;mero entre estes valores dados &#233;&quot;" newline="True"/>
+                            <output expression="NumeroMaior" newline="True"/>
+                        </then>
+                        <else>
+                            <assign variable="NumeroMaior" expression="Valor3"/>
+                            <output expression="&quot;O maior n&#250;mero entre estes valores dados &#233;&quot;" newline="True"/>
+                            <output expression="NumeroMaior" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="Valor2 &gt; Valor3">
+                        <then>
+                            <assign variable="NumeroMaior" expression="Valor2"/>
+                            <output expression="&quot;O maior n&#250;mero entre estes valores dados &#233;&quot;" newline="True"/>
+                            <output expression="NumeroMaior" newline="True"/>
+                        </then>
+                        <else>
+                            <assign variable="NumeroMaior" expression="Valor3"/>
+                            <output expression="&quot;O maior n&#250;mero entre estes valores dados &#233;&quot;" newline="True"/>
+                            <output expression="NumeroMaior" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="DoNada" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>

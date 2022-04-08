@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vladimirisid&#243;riodasi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-26 12:47:39 "/>
+        <attribute name="created" value="dmxhZGltaXJpc2lkw7NyaW9kYXNpO1ZMQURJTUlSOzIwMjEtMTAtMjU7IjA4OjQ1OjAzICI7NDA1OQ=="/>
+        <attribute name="edited" value="dmxhZGltaXJpc2lkw7NyaW9kYXNpO1ZMQURJTUlSOzIwMjEtMTAtMjY7IjEyOjQ3OjM5ICI7MTs0MTc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contador, numero, resultado" type="Integer" array="False" size=""/>
+            <input variable="numero"/>
+            <for variable="contador" start="0" end="10" direction="inc" step="1">
+                <assign variable="resultado" expression="numero*contador"/>
+                <output expression="numero &amp; &quot; x &quot; &amp; contador &amp; &quot; = &quot; &amp; resultado" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

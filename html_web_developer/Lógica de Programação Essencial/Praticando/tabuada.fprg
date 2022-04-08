@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vladimirisid&#243;riodasi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-25 08:44:56 "/>
+        <attribute name="created" value="dmxhZGltaXJpc2lkw7NyaW9kYXNpO1ZMQURJTUlSOzIwMjEtMTAtMjU7IjA3OjUyOjM4ICI7NDA2NA=="/>
+        <attribute name="edited" value="dmxhZGltaXJpc2lkw7NyaW9kYXNpO1ZMQURJTUlSOzIwMjEtMTAtMjU7IjA4OjQ0OjU2ICI7Mzs0MTc2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="criando uma tabuada"/>
+            <declare name="numero, multiplicador, resultado, limite" type="Integer" array="False" size=""/>
+            <assign variable="multiplicador" expression="0"/>
+            <assign variable="limite" expression="10"/>
+            <output expression="&quot;Digite o n&#250;mero da tabuada que deseja descobrir:&quot;" newline="True"/>
+            <input variable="numero"/>
+            <assign variable="resultado" expression="numero*multiplicador"/>
+            <output expression="&quot;Este &#233; a tabuada do &quot; &amp; numero" newline="True"/>
+            <while expression="multiplicador &lt;= limite">
+                <output expression="numero &amp; &quot;x&quot; &amp; multiplicador &amp; &quot;=&quot; &amp; resultado" newline="True"/>
+                <assign variable="multiplicador" expression="multiplicador+1"/>
+                <assign variable="resultado" expression="numero*multiplicador"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

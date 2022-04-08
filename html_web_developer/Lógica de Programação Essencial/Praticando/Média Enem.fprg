@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vladimirisid&#243;riodasi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-25 01:50:14 "/>
+        <attribute name="created" value="dmxhZGltaXJpc2lkw7NyaW9kYXNpO1ZMQURJTUlSOzIwMjEtMTAtMTY7IjAxOjM5OjEzICI7NDA1Ng=="/>
+        <attribute name="edited" value="dmxhZGltaXJpc2lkw7NyaW9kYXNpO1ZMQURJTUlSOzIwMjEtMTAtMjU7IjAxOjUwOjE0ICI7NTs0MTYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Descubra sua m&#233;dia do Enem:&quot;" newline="True"/>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <output expression="&quot;primeiro, diga seu primeiro nome&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;agora seu sobrenome&quot;" newline="False"/>
+            <input variable="sobrenome"/>
+            <output expression="nome &amp; &quot; &quot; &amp; sobrenome &amp; &quot;, vamos ao calculo!&quot;" newline="True"/>
+            <comment text="declarando os campos de memoria que ser&#227;o usados para receber diversos valores"/>
+            <declare name="Nota1, Nota2, Nota3, Nota4, Nota5, Media" type="Real" array="False" size=""/>
+            <comment text="Pedindo os valores para o usuario"/>
+            <output expression="&quot;Digite sua nota de matem&#225;tica e suas tecnologias&quot;" newline="True"/>
+            <input variable="Nota1"/>
+            <output expression="&quot;Digite sua nota de Ci&#234;ncias Humanas e suas Tecnologias&quot;" newline="True"/>
+            <input variable="Nota2"/>
+            <output expression="&quot;Digite sua nota de Linguagens e suas Tecnologias&quot;" newline="False"/>
+            <input variable="Nota3"/>
+            <output expression="&quot;Digite sua nota de Ci&#234;ncias Biologicas e suas Tecnologias&quot;" newline="False"/>
+            <input variable="Nota4"/>
+            <output expression="&quot;Escreva sua nota de Reda&#231;&#227;o&quot;" newline="True"/>
+            <input variable="Nota5"/>
+            <comment text="atribuir a express&#227;o na variavel para saber a media, a qual &#233; a soma de todos os valores, divididos pela quantidade de valores "/>
+            <assign variable="Media" expression="(Nota1 + Nota2 + Nota3 + Nota4 + Nota5) / 5"/>
+            <output expression="&quot;Aqui est&#225; sua M&#233;dia&quot;" newline="True"/>
+            <output expression="Media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
