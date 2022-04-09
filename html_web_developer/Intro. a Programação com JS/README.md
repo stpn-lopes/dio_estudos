@@ -73,14 +73,10 @@ Ou até mesmo uma função para validar algo, como a idade:
     >.value - valor dentro de um elemento.
 
 ### onChange
-onchange - quando ocorre uma mudança, por exemplo:
+onchange - quando ocorre uma mudança, por exemplo para gerar um menu dropdown interativo:
 
     <select onchange="funcao(this)>
         <option value='1'>olá</option>
         <option value='2'>hola</option>
         <option value='3'>hello</option>
     </select>
-### Links úteis
-
-* <a href="></a>
-* <a href="></a>
