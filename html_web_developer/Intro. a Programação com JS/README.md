@@ -18,23 +18,23 @@ Há três maneiras:
 
 ### alguns scripts do JS:
 
-var - variavel escopada
-let - variavel global
-alert() - pop-up na tela
-console.log - mostra no console
-.replace( , ) - procura um elemento, e o substitui por outro
-.toUpperCase - muda todas letras para maiusculas
-.toLowerCase - muda todas letras para minusculas
-[] - arrays servem para criar uma lista de dados
-.pop() - apaga o dado anterior
-.push() - acrescenta mais dados
-.lenght() - conta quantos elementos há
-.reverse() - retorna para o último estado
-.toString() transforma em string
-.join() - trasforma em string e é possivel retirar a virgula ou mudar e etc
-new Date() - data do dia
-.get - pegar algum elemento
-// comentários
+<p>var - variavel escopada</p>
+<p>let - variavel global</p>
+<p>alert() - pop-up na tela</p>
+<p>console.log - mostra no console</p>
+<p>replace( , ) - procura um elemento, e o substitui por outro</p>
+<p>.toUpperCase - muda todas letras para maiusculas</p>
+<p>.toLowerCase - muda todas letras para minusculas</p>
+<p>[ ] - arrays servem para criar uma lista de dados</p>
+<p>.pop() - apaga o dado anterior</p>
+<p>.push() - acrescenta mais dados</p>
+<p>.lenght() - conta quantos elementos há</p>
+<p>.reverse() - retorna para o último estado</p>
+<p>.toString() transforma em string</p>
+<p>.join() - trasforma em string e é possivel retirar a virgula ou mudar e etc</p>
+<p>new Date() - data do dia</p>
+<p>.get - pegar algum elemento</p>
+<p>// comentários</p>
 
 ### Função
 São criadas quando uma instrução pode ser reaproveitada, sendo que está para ser executada necessita ser invocada, e se houver, com seus parâmetros definidos. Por exemplo uma função de soma:
@@ -60,17 +60,17 @@ Ou até mesmo uma função para validar algo, como a idade:
 ### Botão com JS
 É possível manipular elementos da página com o uso do JS, com:
 
-    onclick - pode chamar uma função dentro de um elemento do HTML ao ser clicado.
-    onmouseover - ao passar o mouse gera uma ação.
-    onmouseout - ao tirar o mouse gera outra ação.
-    onload - ao carregar a pagina.
-    document.getElementById - busca um elemento no HTML pelo ID.
-    document.getElementsByClass - busca elementos no HTML pela classes.
-    inner.HTML - inserindo um HTML.
-    inner.text - trata como um texto o elemento.
-    window.open("") - abre uma outra janela pelo url.
-    window.location.href = "" - abre na mesma janela.
-    .value - valor dentro de um elemento.
+    >onclick - pode chamar uma função dentro de um elemento do HTML ao ser clicado.
+    >onmouseover - ao passar o mouse gera uma ação.
+    >onmouseout - ao tirar o mouse gera outra ação.
+    >onload - ao carregar a pagina.
+    >document.getElementById - busca um elemento no HTML pelo ID.
+    >document.getElementsByClass - busca elementos no HTML pela classes.
+    >inner.HTML - inserindo um HTML.
+    >inner.text - trata como um texto o elemento.
+    >window.open("") - abre uma outra janela pelo url.
+    >.window.location.href = "" - abre na mesma janela.
+    >.value - valor dentro de um elemento.
 
 ### onChange
 onchange - quando ocorre uma mudança, por exemplo:
