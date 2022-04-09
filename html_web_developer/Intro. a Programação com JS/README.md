@@ -1,10 +1,10 @@
 # O que é JavaScript?
-É a linguagemde programação que usamos para adicionar interatividade aos siites, desde a troca de estilo dinâmico até a obtenção de atualizações do servidor, até graficos 3D complexos. 
+É a linguagem de programação que usamos para adicionar interatividade aos sites, desde a troca de estilo dinâmico até a obtenção de atualizações do servidor, até gráficos 3D complexos. 
 
-- linguagem de script e multiplataforma
-- pode atuar no front e no back
-- tipagem dinâmica
-- alto-nível
+- linguagem de script e multiplataforma;
+- pode atuar no front e no back;
+- tipagem dinâmica;
+- alto-nível.
 
 ### DOM - Document Object Model 
 - JS pode alterar todos elementos do HTML e tambem os atributos e estilos de CSS de uma página.
@@ -64,17 +64,16 @@ Ou até mesmo uma função para validar algo, como a idade:
     onmouseover - ao passar o mouse gera uma ação.
     onmouseout - ao tirar o mouse gera outra ação.
     onload - ao carregar a pagina.
-    document.getElementById - busca um elemento no HTML pelo ID
-    document.getElementsByClass - busca elementos no HTML pela classes
-    inner.HTML - inserindo um HTML 
-    inner.text - trata como um texto o elemento
-    window.open("") - abre uma outra janela pelo url
-    window.location.href = "" - abre na mesma janela
-    .value - valor dentro de um elemento
+    document.getElementById - busca um elemento no HTML pelo ID.
+    document.getElementsByClass - busca elementos no HTML pela classes.
+    inner.HTML - inserindo um HTML.
+    inner.text - trata como um texto o elemento.
+    window.open("") - abre uma outra janela pelo url.
+    window.location.href = "" - abre na mesma janela.
+    .value - valor dentro de um elemento.
 
 ### onChange
-
-onchange - quando ocorre uma mudança.
+onchange - quando ocorre uma mudança, por exemplo:
 
     <select onchange="funcao(this)>
         <option value='1'>olá</option>
