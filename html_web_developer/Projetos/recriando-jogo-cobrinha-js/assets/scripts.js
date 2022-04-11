@@ -1,17 +1,25 @@
 let canvas = document.getElementById("snake");
 let context = canvas.getContext("2d");
 let box = 32;
+let snake = [];
 
+snake[0] = {
+    x: 10 * box,
+    y: 10 * box
+};
 
-function test () {
-    console.log('hello world');
-}
- 
-test();
-
-function criarBG() {
+function addBG() {
     context.fillStyle = "black";
-    context.fillRect(0, 0, 16 * box, 16 * box);
+    context.fillRect(0, 0, 20 * box, 20 * box);
 }
 
-criarBG();
+function addSnake (){
+    for (i = 0; i < snake.length; i++) {
+        context.fillStyle= 'tomato';
+        context.fillRect(snake[i].x,snake[i].y, box, box);
+        
+    }
+}
+
+addBG();
+addSnake();
