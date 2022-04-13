@@ -1,6 +1,6 @@
 let canvas = document.getElementById("snake");
 let context = canvas.getContext("2d");
-let box = 32;
+let box = 30;
 
 let snake = [];
 snake[0] = {
@@ -8,20 +8,29 @@ snake[0] = {
     y: 8 * box
 };
 
-let direction = "up";
+let direction = "down";
+
 let food = {
     x: Math.floor(Math.random() * 15 +1) * box,
     y: Math.floor(Math.random() * 15 +1) * box
 }
 
-function addBackground() {
+function init(){
     context.fillStyle = "black";
-    context.fillRect(0, 0, 16 * box, 16 * box);
+    context.fillRect(0, 0, 26 * box, 26 * box);
+    context.strokeText('Snake Game', 250, 250);
+    context.font = "30px arial";
+    context.strokeStyle = "white";
 }
 
-function addSnake (){
+function addBackground() {
+    context.fillStyle = "black";
+    context.fillRect(0, 0, 26 * box, 26 * box);
+}
+
+function addSnake(){
     for (i = 0; i < snake.length; i++) {
-        context.fillStyle= 'tomato';
+        context.fillStyle= 'lime';
         context.fillRect(snake[i].x, snake[i].y, box, box);
     }
 }
@@ -41,23 +50,22 @@ function update(event){
 }
 
 function start(){
-    
-    if (snake[0].x > 15 *box && direction == "right") snake[0].x = 0;
-    if (snake[0].x < 0 && direction == "left") snake[0].x = 16 * box;
-    if (snake[0].y > 15 *box && direction == "down") snake[0].y = 0;
+    addBackground();
+    addSnake();
+    addFood();
+
+    if (snake[0].x > 22 *box && direction == "right") snake[0].x = 0;
+    if (snake[0].x < 0 && direction == "left") snake[0].x = 25 * box;
+    if (snake[0].y > 16 *box && direction == "down") snake[0].y = -1 * box;
     if (snake[0].y < 0 && direction == "up") snake[0].y = 16 * box;
 
     for(i = 1; i < snake.length; i++){
         if(snake[0].x == snake[i].x && snake[0].y == snake[i].y) {
             clearInterval(game);
-            Alert("GAME OVER");
+            alert("GAME OVER");
             document.location.reload();
         }
     }
-
-    addBackground();
-    addSnake();
-    addFood();
 
     let snakeX = snake[0].x; 
     let snakeY = snake[0].y;

@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    background-image: url("/assets/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+}
+
+canvas {
+    border: 15px;
+    border-style: groove;
+    border-color: grey;
+}
