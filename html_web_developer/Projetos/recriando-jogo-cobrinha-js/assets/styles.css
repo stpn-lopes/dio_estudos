@@ -1,3 +1,4 @@
+/* estiliza e organiza os elementos na pag, inclusive adiciona um background e uma borda ao canvas.*/
 body {
     display: flex;
     align-items: center;
