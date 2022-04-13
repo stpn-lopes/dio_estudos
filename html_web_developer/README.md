@@ -9,7 +9,7 @@
   <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20Essencial">Lógica de Programação Essencial</a></li>
   <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Intro.%20ao%20Git%20e%20ao%20GitHub">Introdução ao Git ao GitHub</a></li>
   <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Intro.%20a%20cria%C3%A7%C3%A3o%20de%20websites%20com%20HTML5%20e%20CSS3">Introdução a criação de websites com HTML5 e CSS3</a></li>
-  <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Programa%C3%A7%C3%A3o%20para%20Internet%20com%20JS">Programação para internet com JavaScript</a></li>
+  <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Intro.%20a%20Programa%C3%A7%C3%A3o%20com%20JS">Programação para internet com JavaScript</a></li>
   <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Construindo%20pags%20para%20internet%20com%20Bootstrap">Construindo página para internet com Bootstrap</a></li>
   <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Certificados">Certificados</a></li>
   <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos">Projetos</a></li>
