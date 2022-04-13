@@ -20,7 +20,7 @@
       </ul>
  </ul>
  
- ## 💻 &nbsp; Tecnologias aprendidas 
+ ## 💻 &nbsp; Tecnologias estudadas
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-black?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=purple) &nbsp;
 ![Git](https://img.shields.io/badge/-Git-black?style=for-the-badge&logoColor=white&logo=git&labelColor=purple) &nbsp;
 ![Git](https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logoColor=white&logo=github&labelColor=purple) &nbsp;
