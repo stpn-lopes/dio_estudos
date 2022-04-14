@@ -6,13 +6,11 @@
 ## Sumário
 
 <ul>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
+  <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos/recriando-jogo-cobrinha-js#sum%C3%A1rio">Sumário</a></li>
+  <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos/recriando-jogo-cobrinha-js#sobre-seu-funcionamento">Sobre seu funcionamento</a></li>
+  <li><a href=""></a>O que há de diferente?</li>
+  <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos/recriando-jogo-cobrinha-js#como-fazer-para-rodar">Como fazer para rodar</a></li>
+  <li><a href="">Links úteis</a></li>
 </ul>
 
 ## Sobre seu funcionamento
