@@ -2,7 +2,7 @@
 
 ### Visão Geral
 <p>Aqui estão os projetos desenvolvidos junto ao Bootcamp, na página de cada um há uma visão geral explicando as mudanças, como foi o processo  de desenvolvimento, links utéis e muito mais.</p>
-<p: Para conhecer cada um, basta acessar no sumário abaixo que será encaminhado para o projeto.</p>
+<p> Para conhecer cada um, basta acessar no sumário abaixo que será encaminhado para o projeto.</p>
 
 ### Sumário
 
