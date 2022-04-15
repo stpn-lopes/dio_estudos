@@ -44,13 +44,14 @@ let food = {
     }
 */
 
-
-
 // aqui está a cor de fundo do canvas
 
 function addBackground() {
     context.fillStyle = "black";
     context.fillRect(0, 0, 26 * box, 26 * box);
+    context.strokeText('Snake Game', 210, 250);
+    context.font = "45px arial";
+    context.strokeStyle = "white";
 }
 
 // funções para desenhar a cobra e a comida no interior do canvas.
@@ -133,7 +134,15 @@ function start(){
 
     snake.unshift(newHead);
 }
-
 // Definição da velocidade do jogo, quanto maior o valor, mais lento fica.
 
-let game = setInterval (start, 130);
+let game;
+
+switch (snake) {
+    case snake.lenght >=2 : game = setInterval(start,200);
+    case snake.lenght >=8 : game = setInterval(start,160);
+    case snake.lenght >=10 : game = setInterval(start,110);
+    case snake.lenght >=16 : game = setInterval(start,85);
+    default: game = setInterval(start,250);
+};
+
