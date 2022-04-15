@@ -8,9 +8,9 @@ body {
     width: 100%;
     margin: auto;
     margin-top: 50px;
-    background-image: url("/assets/img/bg.jpg");
+    background-image: url("/estudos_js/html_web_developer/Projetos/recriando-jogo-cobrinha-js/assets/img/bg.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 110%;
+    background-size: 100% 115%;
 }
 
 canvas {
@@ -18,3 +18,20 @@ canvas {
     border-style: groove;
     border-color: grey;
 }
+
+@media (max-width:800px) {
+    canvas {
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.212);
+    } body {
+        background-image: url("/estudos_js/html_web_developer/Projetos/recriando-jogo-cobrinha-js/assets/img/bg-2.jpg");
+        background-size: 160%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin: top 50%;
+    }
+};
