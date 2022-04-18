@@ -1,7 +1,7 @@
 # Bootcamp HTML Web Developer
 
 ### Sobre o que é este Bootcamp?
-<p>Ensina a programar páginas de internet e desenvolver websites utilizando HTML, CSS e JavaScript para dar inicio a sua trajetória profissional em desenvolvimento web front-end.</p> 
+<p>Ensina a programar páginas de internet e desenvolver websites utilizando HTML, CSS e JavaScript para dar inicio a trajetória profissional em desenvolvimento web front-end.</p> 
 
 ###  📑 Sumário
 
@@ -16,7 +16,8 @@
       <ul>
         <li><a href="https://github.com/stpn-lopes/InstaWorld">Recriando a página inicial do Instagram</a></li>
         <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos/recriando-jogo-cobrinha-js">Recriando o jogo da cobrinha com JavaScript</a></li>
-        <li><a href="">Recriando a Interface do Netflix</a></li>
+        <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos/recriando-interface-netflix">Recriando a Interface do Netflix</a></li>
+        <li><a href="#">Website</a></li>
       </ul>
  </ul>
  
