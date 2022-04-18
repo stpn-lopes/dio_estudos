@@ -8,7 +8,7 @@ Este repositório conterá anotações, desafios e projetos desenvolvidos a part
 ## Bootcamps
 
 <ul>
-    <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer"></a>HTML Web Developer</li>
-    <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/take_blip_web_developer/Introd.%20ao%20JavaScript"></a>Take Blip Web Developer</li>
-    <li><a href="#"></a>Órbi Web Games Developer</li>
+    <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer">HTML Web Developer</a></li>
+    <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/take_blip_web_developer/Introd.%20ao%20JavaScript">Take Blip Web Developer</a></li>
+    <li><a href="#">Órbi Web Games Developer</a></li>
 </ul>
