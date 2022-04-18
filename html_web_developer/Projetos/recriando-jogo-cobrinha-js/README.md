@@ -1,3 +1,5 @@
+<img align="right" src="https://github.com/stpn-lopes/dio_estudos/blob/main/html_web_developer/Projetos/recriando-jogo-cobrinha-js/assets/img/snake.png"/>
+
 # Projeto Snake Game
 
 <p>Este projeto serviu para aplicar os conhecimentos adquiridos ao decorrer dessa trilha de cursos, foi criado com o uso de HTML, CSS e JavaScript para desenvolver um jogo que faz alusão àqueles famosos games antigos da cobrinha. No qual, por hora considero finalizado, mas pretendo aprimorar alguns detalhes mais para frente quando obtiver conhecimento para isso.</p>
@@ -10,7 +12,7 @@
   <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos/recriando-jogo-cobrinha-js#sobre-seu-funcionamento">Sobre seu funcionamento</a></li>
   <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos/recriando-jogo-cobrinha-js#responsividade">Responsividade</a></li>
   <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos/recriando-jogo-cobrinha-js#como-fazer-para-rodar">Como fazer para rodar</a></li>
-  <li><a href="#">Links úteis</a></li>
+  <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos/recriando-jogo-cobrinha-js#links-%C3%BAteis">Links úteis</a></li>
 </ul>
 
 ## Sobre seu funcionamento
@@ -18,8 +20,12 @@ Se fez uso do elemento "canvas" do HTML5, pois este permite desenhar gráficos c
 
 ![snakegame](https://user-images.githubusercontent.com/91392505/163768430-204b278d-f78e-4644-b8c9-41de5aa6c09e.gif)
 
+A cobra ao tocar seu corpo, ativa uma função que gera uma caixa de alerta com uma mensagem avisando que houve 'game over' junto de um botão de confirmação, no qual quando este é apertado, a página é recarregada e reinicia-se o game.
+
 ## Responsividade
-< gif >
+O background muda de imagem quando alcança determinada largura, a responsividade em grande parte deve-se ao uso do FlexBox que facilitou na hora da criação do Media Query no CSS3.
+
+<img src="https://github.com/stpn-lopes/dio_estudos/blob/main/html_web_developer/Projetos/recriando-jogo-cobrinha-js/assets/img/responsivo.gif"/>
 
 ## Como fazer para rodar
 
@@ -35,8 +41,8 @@ Se fez uso do elemento "canvas" do HTML5, pois este permite desenhar gráficos c
 
 <ol>
    <li>É possível realizar o clone do repositório, para isso basta pegar o comando abaixo e adicionar no Git para ter o repositório em seu dispositivo.</li>
-
-                git clone https://github.com/stpn-lopes/dio_estudos.git
+  
+        git clone https://github.com/stpn-lopes/dio_estudos.git
 
     
    <li>Para visualizar o game abra seu navegador em 127.0.0.1:5500 </li>
@@ -44,7 +50,13 @@ Se fez uso do elemento "canvas" do HTML5, pois este permite desenhar gráficos c
  
  * Ou você pode dar um Fork do projeto no GitHub, se acaso quiser manter o codigo inicial e quiser ter uma visualização mais clara de suas implementações e mudanças. Depois do Fork é só dar continuidade com os mesmos passos acima.
   
-  ## Links úteis
+  ##  ℹ️  Links úteis
   
+  <ul>
+    <li><a href="https://convertio.co/pt/mp4-gif/">Conversor de mp4 em gif</a></li>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/canvas">O que é o elemento Canvas?</a></li>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Canvas_API/Tutorial/Basic_usage">Como usar o elemento Canvas?</a></li>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes">Como desenhar no elemento canvas?</a></li>
+  </ul>
   
   
