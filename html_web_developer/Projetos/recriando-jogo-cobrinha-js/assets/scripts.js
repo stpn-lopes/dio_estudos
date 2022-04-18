@@ -134,15 +134,15 @@ function start(){
 
     snake.unshift(newHead);
 }
-// Definição da velocidade do jogo, quanto maior o valor, mais lento fica.
+// Definição da velocidade do jogo, quanto maior o valor no setInterval, mais lento fica. A ideia é criar condições que permitam a velocidade ficar mais rápida conforme ocorre o aumento do tamanho da cobra.
 
-let game;
+let velocity = [];
 
-switch (snake) {
-    case snake.lenght >=2 : game = setInterval(start,200);
-    case snake.lenght >=8 : game = setInterval(start,160);
-    case snake.lenght >=10 : game = setInterval(start,110);
-    case snake.lenght >=16 : game = setInterval(start,85);
-    default: game = setInterval(start,250);
+switch (velocity) {
+    case snake.lenght >=4 : velocity = setInterval(start,200);
+    case snake.lenght >=8 : velocity = setInterval(start,160);
+    case snake.lenght >=10 : velocity = setInterval(start,110);
+    case snake.lenght >=16 : velocity = setInterval(start,85);
+    default: velocity = setInterval(start,280);
 };
 
