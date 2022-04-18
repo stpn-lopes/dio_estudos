@@ -8,18 +8,20 @@
 <ul>
   <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos/recriando-jogo-cobrinha-js#sum%C3%A1rio">Sumário</a></li>
   <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos/recriando-jogo-cobrinha-js#sobre-seu-funcionamento">Sobre seu funcionamento</a></li>
-  <li><a href=""></a>O que há de diferente?</li>
+  <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos/recriando-jogo-cobrinha-js#responsividade">Responsividade</a></li>
   <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos/recriando-jogo-cobrinha-js#como-fazer-para-rodar">Como fazer para rodar</a></li>
-  <li><a href="">Links úteis</a></li>
+  <li><a href="#">Links úteis</a></li>
 </ul>
 
 ## Sobre seu funcionamento
 Se fez uso do elemento "canvas" do HTML5, pois este permite desenhar gráficos com o uso de uma linguagem de script, neste caso é usado a linguagem JavaScript, sendo possível ser realizado estes desenhos por meio de definições de tamanho do espaço que será usado no canvas e de "coordenadas" que especificam o local onde se fará uso, como uma espécie de plano cartesiano com os eixos 'x' e 'y'.
 
-< aqui irá ter um vídeo mostrando o funcionamento do game. >
+![snakegame](https://user-images.githubusercontent.com/91392505/163768430-204b278d-f78e-4644-b8c9-41de5aa6c09e.gif)
 
+## Responsividade
+< gif >
 
-### Como fazer para rodar
+## Como fazer para rodar
 
 <h4> Requisitos </h4>
 
@@ -41,3 +43,8 @@ Se fez uso do elemento "canvas" do HTML5, pois este permite desenhar gráficos c
 </ol>
  
  * Ou você pode dar um Fork do projeto no GitHub, se acaso quiser manter o codigo inicial e quiser ter uma visualização mais clara de suas implementações e mudanças. Depois do Fork é só dar continuidade com os mesmos passos acima.
+  
+  ## Links úteis
+  
+  
+  
