@@ -24,3 +24,14 @@ Evita que os elementos transbordem para fora da 'caixa', é uma forma de garanti
 ### Para que serve as classes Wrapper?
 Serve para indicar que este elemento principal engloba outros objetos, afim de auxiliar no momento de modifica-los.
 
+* alguns elementos já possuem pré-definições, é importante lembrar disto, enquanto está desenvolvendo.
+
+### atribuindo valores
+
+* 1 valor = as 4 direções;
+* 2 valores = cima e direita, baixo e esquerda;
+
+### links uteis
+
+* FONT AWESOME - https://kit.fontawesome.com/2c36e9b7b1.js
+Auxilia na padronização de ícones
