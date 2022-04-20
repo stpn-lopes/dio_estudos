@@ -12,9 +12,9 @@
 /* estrutura básica: corpo e header*/
 
 body {
-    margin: left 10px right 10px;
     background-color: var(--black);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container {
@@ -27,15 +27,106 @@ header .container {
 header .logo{
     color: var(--red);
     font-family: 'Arial Black', Times; 
-    font-size: 40px;
+    font-size: 37px;
+    margin-left: 10px;
 }
 
-header nav a{
-    text-decoration:none;
-    color: #aaa;
+nav {
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+    margin-left: 5px;
+}
+
+.option-right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 13%;
+}
+
+.profile {
+    width: 25px;
+    height: 25px;
+    background: red;
+    align-self: center;
+    justify-self: center;
+}
+
+.profile:hover {
+    width: 27px;
+    height: 27px;
+    transition: .2s all ease-in;
+}
+
+.option-right, header nav a {
+    text-decoration-line: none;
+    color: #aaa ;
     margin-right: 10px;
+    font-size: 15px;
+}
+
+header nav a { 
+    text-decoration: none;
 }
 
 header nav a:hover{
     color:rgb(236, 233, 233);
+}
+
+.option-right i:hover, .option-right a:hover{
+    color:rgb(236, 233, 233);
+}
+
+/*main session: conteúdo destaque*/
+.main-session {
+    font-size: 14px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0, .50)), url("https://www.canon.com.br/upload/dica/85/452ff94e-f161-40da-ae44-444cf508a7e0.jpg");
+    height: 400px;
+    background-size: 50% 100% 50% 50%;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.main-session .container {
+    margin-left: 5%;
+}
+
+.main-session .description {
+    margin-bottom: 10%;
+}
+
+.title {
+    font-size: 40px;
+    margin-top: 20%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+.div-btns {
+    display: flex;
+    width: 510px;
+}
+
+.btn {
+    background-color:rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    width: 250px;
+    padding: 15px 25px;
+    margin-right: 3%;
+    cursor:pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    transition: .2s ease all;
+}
+
+.btn i {
+    margin: 1px;
 }
