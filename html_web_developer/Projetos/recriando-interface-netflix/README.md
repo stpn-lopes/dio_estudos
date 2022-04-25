@@ -1,7 +1,7 @@
-<img src="assets\img\plane.png" align="right" width="40%"/>
-
 # Clone Netflix: EXPLORIX
-Projeto desenvolvido através dos conhecimento adquiridos com o professor <a href="">Felipe Aguiar</a> ao ensinar a desenvolver o projeto"Recriando a interface da Netflix"na plataforma <a href="https://www.dio.me/sign-in">Digital Innovation One</a>.
+Projeto desenvolvido através dos conhecimento adquiridos com o professor <a href="">Felipe Aguiar</a> ao ensinar a desenvolver o projeto"Recriando a interface da Netflix"na plataforma <a href="https://www.dio.me/sign-in">Digital Innovation One</a>
+
+<img src="assets\img\earth.png" align="right" width="40%"/>
 
 ## Sumário
 
@@ -12,9 +12,6 @@ Projeto desenvolvido através dos conhecimento adquiridos com o professor <a hre
     <li><a href="#">Navegar pelo código</a></li>
     <li><a href="#">Links úteis</a></li>
 </ul>
-
-<img src="assets\img\earth.png" align="right" width="40%"/>
-
 ## Sobre o projeto
 A ideia principal é entender como funciona a construção dos elementos dentro de uma página web como a Netflix, e assim desenvolver uma visão apurada na hora de tranformar um projeto desenhado em algo concreto, levando em consideração a responsividade, a praticididade e a dinâmica. 
 
