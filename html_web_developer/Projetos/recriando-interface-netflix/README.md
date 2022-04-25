@@ -23,17 +23,17 @@ Baseado nisto, resolvi desenvolver uma página que se assemelhe a interface orig
 
 ## Quais funcionalidades possui?
 
-[x] Usar o elemento nav;
-[x] Efeitos em botões;
-[x] Uso de variavel no CSS;
-[x] Uso das propriedades de FlexBox;
-[x] Padronização de icons com <a href="https://kit.fontawesome.com/2c36e9b7b1.js">Font Awesome</a>;
-[x] Carrosel de imagens com o uso de JQuery;
-[ ] Responsividade;
+- [x] Usar o elemento nav;
+- [x] Efeitos em botões;
+- [x] Uso de variavel no CSS;
+- [x] Uso das propriedades de FlexBox;
+- [x] Padronização de icons com <a href="https://kit.fontawesome.com/2c36e9b7b1.js">Font Awesome</a>;
+- [x] Carrosel de imagens com o uso de JQuery;
+- [ ] Responsividade;
 [ ] 
 
 ## Navegar pelo código
 
-<img src="assets\img\estrutura-codigo.png" align="center" width="65%"/>
+<img src="assets\img\estrutura-codigo.png" align="center" width="60%"/>
 
 ## Links úteis
