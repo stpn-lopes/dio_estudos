@@ -21,28 +21,43 @@ header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    height: 70px;
 }
 
 header .logo{
     color: var(--red);
-    font-family: 'Arial Black', Times; 
-    font-size: 37px;
+    font-family: 'Arial Black', Times;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center; 
+    font-size: 30px;
     margin-left: 10px;
 }
 
 nav {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
-    width: 50%;
+    justify-content: space-between;
     margin-left: 5px;
+    width: 80%;
 }
 
-.option-right {
+.right {
     display: flex;
+    flex-direction: row;
     align-items: flex-end;
     justify-content: space-evenly;
-    width: 13%;
+    width: 15%;
+}
+
+.left {
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start;
+    justify-content: space-around;
 }
 
 .profile {
@@ -59,22 +74,18 @@ nav {
     transition: .2s all ease-in;
 }
 
-.option-right, header nav a {
+.right, header nav a {
     text-decoration-line: none;
     color: #aaa ;
     margin-right: 10px;
     font-size: 15px;
 }
 
-header nav a { 
-    text-decoration: none;
-}
-
 header nav a:hover{
     color:rgb(236, 233, 233);
 }
 
-.option-right i:hover, .option-right a:hover{
+.right i:hover, .right a:hover{
     color:rgb(236, 233, 233);
 }
 
