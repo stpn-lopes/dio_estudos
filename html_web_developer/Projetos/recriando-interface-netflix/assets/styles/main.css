@@ -50,7 +50,7 @@ nav {
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-evenly;
-    width: 15%;
+    width: 20%;
 }
 
 .left {
@@ -64,7 +64,8 @@ nav {
 .profile {
     width: 25px;
     height: 25px;
-    background-image: url("https://ik.imagekit.io/criandocomahelo/criandocomahelo_JQZWHq2wy.png");
+    background-image: url("/assets/img/profile.jpeg");
+    background-size: 100%;
 }
 
 .profile:hover {
@@ -91,9 +92,9 @@ header nav a:hover{
 /*main session: conteúdo destaque*/
 .main-session {
     font-size: 14px;
-    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0, .50)), url("https://www.canon.com.br/upload/dica/85/452ff94e-f161-40da-ae44-444cf508a7e0.jpg");
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0, .50)), url("/assets/img/main.jpg");
     height: 400px;
-    background-size: 50% 100% 50% 50%;
+    background-size: 100%;
     background-repeat: no-repeat;
     display:flex;
     flex-direction: column;
@@ -104,7 +105,9 @@ header nav a:hover{
 
 .main-session .container {
     margin-left: 5%;
+    width: 500px;
 }
+
 
 .main-session .description {
     margin-bottom: 10%;
@@ -139,5 +142,21 @@ header nav a:hover{
 
 .btn i {
     margin: 1px;
+}
+
+/* configurações do carrosel de imagens*/
+.carousel {
+    margin-top: 15px;
+}
+
+.items {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+}
+
+.boxes-items {
+    width: 100%;
+    height: 100%;
 }
 
