@@ -31,7 +31,11 @@ Serve para indicar que este elemento principal engloba outros objetos, afim de a
 * 1 valor = as 4 direções;
 * 2 valores = cima e direita, baixo e esquerda;
 
+### O que é um JQuery?
+
+* Para referenciar no CSS se usa o cifrão '$'
 ### links uteis
 
 * FONT AWESOME - https://kit.fontawesome.com/2c36e9b7b1.js
 Auxilia na padronização de ícones
+* THE MOVIE DATABASE (TMDB) - 
