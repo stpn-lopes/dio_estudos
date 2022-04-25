@@ -13,7 +13,7 @@ Projeto desenvolvido através dos conhecimento adquiridos com o professor <a hre
     <li><a href="#">Links úteis</a></li>
 </ul>
 
-<img src="assets\img\earth.png" align="left" width="50%"/>
+<img src="assets\img\earth.png" align="right" width="40%"/>
 
 ## Sobre o projeto
 A ideia principal é entender como funciona a construção dos elementos dentro de uma página web como a Netflix, e assim desenvolver uma visão apurada na hora de tranformar um projeto desenhado em algo concreto, levando em consideração a responsividade, a praticididade e a dinâmica. 
@@ -37,6 +37,6 @@ Baseado nisto, resolvi desenvolver uma página que se assemelhe a interface orig
 
 ## Navegar pelo código
 
-<img src="assets\img\estrutura-codigo.png" align="center" width="80%"/>
+<img src="assets\img\estrutura-codigo.png" align="center" width="70%"/>
 
 ## Links úteis
