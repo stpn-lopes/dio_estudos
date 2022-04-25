@@ -34,6 +34,6 @@ Baseado nisto, resolvi desenvolver uma página que se assemelhe a interface orig
 
 ## Navegar pelo código
 
-<img src="assets\img\estrutura-codigo.png" align="center" width="70%"/>
+<img src="assets\img\estrutura-codigo.png" align="center" width="65%"/>
 
 ## Links úteis
