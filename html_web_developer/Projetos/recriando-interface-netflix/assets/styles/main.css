@@ -21,8 +21,8 @@ header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    height: 70px;
+    justify-content: space-between;
+    height: 50px;
 }
 
 header .logo{
@@ -57,15 +57,14 @@ nav {
     display: flex;
     flex-direction: row; 
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: center;
+    padding-top: 5px;
 }
 
 .profile {
     width: 25px;
     height: 25px;
-    background: red;
-    align-self: center;
-    justify-self: center;
+    background-image: url("https://ik.imagekit.io/criandocomahelo/criandocomahelo_JQZWHq2wy.png");
 }
 
 .profile:hover {
@@ -141,3 +140,4 @@ header nav a:hover{
 .btn i {
     margin: 1px;
 }
+
