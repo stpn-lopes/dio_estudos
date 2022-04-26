@@ -17,7 +17,7 @@ A ideia principal é entender como funciona a construção dos elementos dentro 
 
 Baseado nisto, resolvi desenvolver uma página que se assemelhe a interface original da Netflix, mas que ao invés de um streamming de filmes e séries, trouxe uma espécie de rede social que possui fotografias, videos e depoimentos referentes a viagens pelo mundo. Como mostra abaixo:
 
-<img src="" align="center" width="100%"/>
+<img src="assets/img/example-img.png" align="center" width="100%"/>
 
 ## O que há de diferente?
 
@@ -30,7 +30,6 @@ Baseado nisto, resolvi desenvolver uma página que se assemelhe a interface orig
 - [x] Padronização de icons com <a href="https://kit.fontawesome.com/2c36e9b7b1.js">Font Awesome</a>;
 - [x] Carrosel de imagens com o uso de JQuery;
 - [ ] Responsividade;
-[ ] 
 
 ## Navegar pelo código
 
