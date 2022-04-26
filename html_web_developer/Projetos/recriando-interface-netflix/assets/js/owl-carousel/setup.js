@@ -11,13 +11,19 @@ owl.owlCarousel ({
     touchDrag: true,
     stagePadding: 10,
     responsive:{
-        0:{
+        0: {
             items:1
         },
-        600:{
+        250: {
+            items:2
+        },
+        400: {
             items:3
+        },
+        600: {
+            items:4
         },            
-        960:{
+        880:{
             items:5
         },
         1200:{
