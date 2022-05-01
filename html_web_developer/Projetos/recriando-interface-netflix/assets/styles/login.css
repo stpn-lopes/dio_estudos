@@ -1,0 +1,75 @@
+/*criar variaveis*/
+:root {
+    --red: #E50914;
+    --black: #141414;
+}
+
+/* definições globais */
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* definições do cabeçalho */
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 45px;
+    color: var(--red);
+}
+
+/* definições do conteúdo */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+
+h2 {
+    font-size: 35px;
+    padding: 20px;
+}
+
+/* definições dos perfis*/
+section .divProfiles {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding-top: 2%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile a {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 15px;
+    width: 80%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+img:hover {
+    transition: .2 all ease-in-out;
+    width: 85%;
+}
