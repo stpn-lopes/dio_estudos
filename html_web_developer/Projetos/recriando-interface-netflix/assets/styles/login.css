@@ -1,6 +1,6 @@
 /*criar variaveis*/
 :root {
-    --red: #E50914;
+    --red: #98e509;
     --black: #141414;
 }
 
@@ -13,7 +13,7 @@
 
 body {
     background-color: var(--black);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
 }
 
 /* definições do cabeçalho */
@@ -70,6 +70,6 @@ img {
 }
 
 img:hover {
-    transition: .2 all ease-in-out;
+    transition: .2s all ease-in-out;
     width: 85%;
 }
