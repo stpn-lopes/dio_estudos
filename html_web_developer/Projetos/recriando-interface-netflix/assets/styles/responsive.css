@@ -2,24 +2,24 @@
     header .container {
         flex-direction: column;
         margin-bottom: 25px;
+        height: 80px;
+        background-color: rgba(0, 0, 0, 0.877);
     }
     nav {
         justify-content: space-around;
-        width: 95%;
+        width: 100%;
+        padding-bottom: 3%;
     }
     .right {
         max-width: 25%;
         justify-content: space-between;
-    }
-    .right a {
-        display: none;
     }
     .main-session .container {
         width: 70%;
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 650px) {
     .main-session {
         height: 450px;
         background-size: cover;
@@ -38,11 +38,14 @@
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 500px) {
     .right {
         display:none;
     }
     .title {
         font-size: 33px;
+    }
+    .div-btns {
+        flex-direction: column;
     }
 }
