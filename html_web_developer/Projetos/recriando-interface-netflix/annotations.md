@@ -32,6 +32,8 @@ Serve para indicar que este elemento principal engloba outros objetos, afim de a
 * 2 valores = cima e direita, baixo e esquerda;
 
 ### O que é um JQuery?
+O próposito do JQuery é tornar mais fácil o uso do JavaScript em seu site, basicamente este é biblioteca JavaScript leve, uma das mais populares, que reune tarefas grandes e as envolve em métodos que possibilita chamar essa "tarefa" com uma unica linha de código, diminuindo assim a complexidade e nos poupando tempo para focar em outras tarefas. 
+
 
 * Para referenciar no CSS se usa o cifrão '$'
 ### links uteis
