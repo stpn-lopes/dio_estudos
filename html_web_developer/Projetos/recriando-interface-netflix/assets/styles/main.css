@@ -68,7 +68,7 @@ nav {
 .profile {
     width: 25px;
     height: 25px;
-    background-image: url("/assets/img/profile.jpeg");
+    background-image: url("/html_web_developer/Projetos/recriando-interface-netflix/assets/img/profile.jpeg");
     background-size: 100%;
     background-position: center;
     border-radius: 100%;
@@ -104,7 +104,7 @@ header nav a:hover{
 /*definições do conteúdo destaque*/
 .main-session {
     font-size: 14px;
-    background: linear-gradient(rgba(39, 1, 1, 0.753), rgba(0, 0, 0, .50)), url("/assets/img/main.jpg");
+    background: linear-gradient(rgba(39, 1, 1, 0.753), rgba(0, 0, 0, .50)), url("/html_web_developer/Projetos/recriando-interface-netflix/assets/img/main.jpg");
     height: 500px;
     background-size: 100%;
     background-repeat: no-repeat;
