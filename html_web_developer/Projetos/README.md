@@ -7,7 +7,7 @@
 ### Sumário
 
 <ul>
-  <li><a href="https://github.com/stpn-lopes/InstaWorld"</a>Recriando a página inicial do Instagram</li>
+  <li><a href="https://github.com/stpn-lopes/InstaWorld">Recriando a página inicial do Instagram</a></li>
   <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos/recriando-interface-netflix">Recriando a Interface do Netflix</a></li>
   <li><a href="https://github.com/stpn-lopes/dio_estudos/tree/main/html_web_developer/Projetos/recriando-jogo-cobrinha-js">Recriando o jogo da cobrinha com JavaScript</a></li>
   <li><a href="#">Website</a></li>
