@@ -69,6 +69,7 @@ img {
     cursor: pointer;
 }
 
+/* add efeito as imagens que servem de botões*/
 img:hover {
     transition: .2s all ease-in-out;
     width: 85%;
