@@ -4,6 +4,7 @@
     --black: #141414;
 }
 
+/* definições globais */
 * {
     padding: 0;
     margin: 0;
@@ -15,6 +16,7 @@ body {
     background-color: var(--black);
 }
 
+/* titulo principal */
 .main {
     background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.267),rgba(0, 0, 0, 0.705),rgba(0, 0, 0, 0.966)),url('/html_web_developer/Projetos/recriando-interface-netflix/assets/img/main.jpg');
     background-repeat: none;
@@ -30,6 +32,7 @@ body {
     padding: 25px;
 }
 
+/* */
 .container {
     display: flex;
     justify-content: space-between;
@@ -41,6 +44,7 @@ body {
     padding: 25px;
 }
 
+/* definições da área de conteúdo principal selecionado*/
 .main-ep {
     display:flex;
     flex-direction: column;
@@ -63,6 +67,7 @@ body {
     text-align: justify;
 }
 
+/*add imagem referente ao podcast selecionado*/
 .bg-main-ep {
     background-image: url('/html_web_developer/Projetos/recriando-interface-netflix/assets/img/5.jpg');
     background-size: 100%;
@@ -120,7 +125,7 @@ button {
     margin-left: 5px;
 }
 
-
+/* definições da lista lateral de 4 podcasts */
 .all-eps {
     display: flex;
     flex-direction: column;
