@@ -55,7 +55,6 @@ body {
     border-color: rgb(255, 204, 127);
     border-width: thin;
     border-style: solid;
-
 }
 
 .up-main {
@@ -107,17 +106,23 @@ body {
     width: 50px;
 }
 
-input {
+.range-input {
     width: 500px;
 }
 
 button {
-    background-color: black;
+    background-color: transparent;
     border: transparent;
     width: 25px;
     height: 20px;
-    color: white;
+    color: rgb(250, 234, 234);
+}
 
+/*efeitos para os botões de play e pause*/
+button:hover {
+    transform: scale(1.1);
+    color: rgb(52, 216, 79);
+    transition: transform 0.6s ease-in-out;  
 }
 
 .div-play h6 {
@@ -139,6 +144,7 @@ button {
 .div-ep {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 300px;
     height: 80px;
 }
@@ -151,7 +157,23 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--red);
+    color: white;
+    border-color: rgb(255, 204, 127);
+    border-style: solid;
+    border-width: thin;
+}
+
+/*efeito da imagem dos eps da lista lateral*/
+.bg-ep:hover {
+    border-color: rgb(52, 216, 79);
+    color:  rgb(52, 216, 79);
+    transform: scale(1.1);
+    transition: all 0.2;
+}
+
+/*efeito para mudança do cursor do mouse*/
+.bg-ep, button, input, .title:hover {
+    cursor: pointer;
 }
 
 .info-ep {
@@ -168,12 +190,17 @@ button {
 
 .title {
     font-size: 20px;
-    color: var(--red);
+    color: rgb(255, 204, 127);
 }
 
+/*efeito para o titulo dos eps da lista lateral*/
+.title:hover{
+    color:  rgb(52, 216, 79);
+    transition: all 0.2;
+}
 
 .description {
-    font-size: 15px;
+    font-size: 14px;
     text-align: justify;
     width: 100%;
 }
