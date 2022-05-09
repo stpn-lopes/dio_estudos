@@ -15,7 +15,6 @@ body {
     margin: auto;
 }
 
-
 .title {
     color: var(--red);
     font-family: Arial, Helvetica, sans-serif;
@@ -52,10 +51,11 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
-    width: 300px;
-    height: 500px;
+    width: 200px;
+    height: 400px;
     text-align: justify;
     font-family: Verdana, sans-serif, Arial;
+    font-size: 12px;
 }
 
 .shared {
