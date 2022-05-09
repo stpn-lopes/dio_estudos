@@ -25,14 +25,14 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 50px;
-    color: rgb(231, 216, 216);
+    color: rgb(255, 204, 127);
     margin: auto;
     padding: 25px;
 }
 
 .container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     width: 90%;
     height: 70vh;
@@ -41,13 +41,94 @@ body {
     padding: 25px;
 }
 
+.main-ep {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    border-color: rgb(255, 204, 127);
+    border-width: thin;
+    border-style: solid;
+
+}
+
+.up-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    width: 76%;
+    text-align: justify;
+}
+
+.bg-main-ep {
+    background-image: url('/html_web_developer/Projetos/recriando-interface-netflix/assets/img/5.jpg');
+    background-size: 100%;
+    width: 700px;
+    height: 300px;
+}
+
+.info-main-ep {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 300px;
+}
+
+.main-ep-title{
+    font-size: 45px;
+    color:rgb(255, 204, 127);
+    width: 300px;
+}
+
+.main-description {
+    width: 300px;
+}
+
+.div-play{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    width: 80%;
+    height: 30px;
+}
+
+.options-play {
+    display:flex;
+    justify-content: space-between;
+    width: 50px;
+}
+
+input {
+    width: 500px;
+}
+
+button {
+    background-color: black;
+    border: transparent;
+    width: 25px;
+    height: 20px;
+    color: white;
+
+}
+
+.div-play h6 {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
 
 .all-eps {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-end;
     color: white;
     height: 70vh;
+    width: 300px;
 }
 
 .div-ep {
@@ -65,6 +146,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--red);
 }
 
 .info-ep {
@@ -81,7 +163,9 @@ body {
 
 .title {
     font-size: 20px;
+    color: var(--red);
 }
+
 
 .description {
     font-size: 15px;
