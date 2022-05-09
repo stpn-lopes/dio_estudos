@@ -45,6 +45,13 @@ body {
     width: auto;
 }
 
+.divDepoimento:hover{
+    border: solid thin #98e509;
+    border-radius: 15px;
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+
 .icon-quotes {
     width:25%;
 }
