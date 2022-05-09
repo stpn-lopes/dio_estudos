@@ -27,9 +27,16 @@ body {
 }
 
 .photos-panel img {
-    height: 500px;
-    width: 420px;
+    height: 400px;
+    width: 300px;
     padding-bottom: 10px;
+}
+
+/*efeito de ampliar imagens do painel de fotos ao passar o mouse*/
+.photos-panel img:hover {
+    border: medium solid white;
+    transform: scale(1.3); 
+    box-shadow: 0 5px 15px var(--red);
 }
 
 /* definições do carrosel de fotos */
@@ -37,6 +44,16 @@ body {
     padding: 10px;
 }
 
+/* muda o cursor do mouse ao se aproximar*/
+.carousel:hover {
+    cursor: grab;
+}
+
 .boxes-items {
     height: 350px;
+}
+
+/*efeito de ampliar imagens do carrosel de fotos ao passar o mouse*/
+.boxes-items:hover {
+    transform: scale(1.4);
 }
