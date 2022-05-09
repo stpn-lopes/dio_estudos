@@ -73,4 +73,6 @@ img {
 img:hover {
     transition: .2s all ease-in-out;
     width: 85%;
+    border: solid medium #98e509;
+    box-shadow: 0 5px 15px var(--red);
 }
