@@ -29,6 +29,7 @@ body {
 .photos-panel img {
     height: 400px;
     width: 300px;
+    margin: 5px;
 }
 
 /*efeito de ampliar imagens do painel de fotos ao passar o mouse*/
